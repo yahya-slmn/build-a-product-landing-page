@@ -1,0 +1,86 @@
+@media (max-width: 650px) {
+  #nav-bar {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+    nav li {
+    padding-bottom: 5px;
+     
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  right: 0px
+}
+.btn {
+  text-transform: uppercase;
+}
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+#trailer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+#header-img {
+  width: 100px;
+}
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
+#page {
+  background-color: 
+}
+#middle {
+    margin-top: 50px;
+  text-align: center;
+ 
+}
+#bottom {
+  text-align: 
+}
+.mer21 {
+  width: 90%;
+  
+}
+#container {
+    height: 500px;
+display: flex;
+ justify-content: space-between;
+  padding: 50px;
+}
+div1 {
+   width: 50%;
+    height: 50%;
+}
+#div2 {
+   width: 50%;
+    height: 50%;
+  
+}
