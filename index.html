@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@media (max-width: 650px) {
+  #nav-bar {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+    nav li {
+    padding-bottom: 5px;
+     
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  right: 0px
+}
+.btn {
+  text-transform: uppercase;
+}
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+#trailer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+#header-img {
+  width: 100px;
+}
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
+#page {
+  background-color: 
+}
+#middle {
+    margin-top: 50px;
+  text-align: center;
+ 
+}
+#bottom {
+  text-align: 
+}
+.mer21 {
+  width: 90%;
+  
+}
+#container {
+    height: 500px;
+display: flex;
+ justify-content: space-between;
+  padding: 50px;
+}
+div1 {
+   width: 50%;
+    height: 50%;
+}
+#div2 {
+   width: 50%;
+    height: 50%;
+  
+}
+</style>
+</head>
+<body>
+<div id="page">
+<header id="header">
+  <div class="logo">
+  <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrdUBmhO4zKyWqcS0EmbFaJZpjFXQ0UhnyXQ&usqp=CAU" alt="logo mercedes"/>
+  </div>
+  
+  <nav id="nav-bar">
+    <ul>
+    <li><a class="nav-link" href="#trailer">Trailer</a></li>
+    <li><a class="nav-link" href="#middle">Log-In</a></li>
+    <li><a class ="nav-link" href="#bottom">Price</a></li>
+  </nav>
+</header>
+<section id="trailer">
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fzD6S1dMhrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</section>
+<section id="middle">
+  <h2>Mercedes-Benz Group</h2>
+  <form id="form" action="https://freecodecamp.com/email-submit">
+    <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+<input class="btn" id="submit" type="submit"  value="Sign in!"/>
+  </form>
+</section>
+<section id="bottom">
+  <div id="container">
+    <div id="div1">
+  <h2>Mercedes car 2021 specifications:</h2>
+  <ul>
+    <li>First-rate interior</li>
+    <li>Supple ride</li>
+    <li>Powerful engines in AMG models</li>
+    <li>Lengthy features list</li>
+    <li>Heated front seats and 12.3-inch digital instrument cluster now standard</li>
+  </ul>
+  
+  <h3>$41,600-$85,600</h3>
+  <button>Buy</button>
+      </div>
+    <div id="div2">
+      <img class="mer21" src="https://cars.usnews.com/static/images/Auto/izmo/i159614352/2021_mercedes_benz_c_class_angularfront.jpg" alt="mercedes 2021!!!">
+    </div>
+  </div>
+</section>
+  </div>
+</body>
+</html>
